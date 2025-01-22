@@ -42,6 +42,15 @@ export const ORDINAL_NUMBERS: { [key: string]: string[] } = {
   '१०': ['दशौं', 'दशम']
 };
 
+export const SHORT_FORMS: { [key: string]: string } = {
+  'बजे': 'बजा',
+  'बिहान': 'बिहान',
+  'दिउँसो': 'दिउँसो',
+  'साँझ': 'साँझ',
+  'राति': 'राति'
+};
+
+
 // Special number formats
 export const SPECIAL_FORMATS = {
   phone: {
